@@ -1,19 +1,94 @@
-<!DOCTYPE html> <!-- Says this is an HTML document -->
-<html lang="en"> <!-- Specifies default language -->
-<head>
-    <!-- Head tag contains any sort of metadata 
-        and asset links for your site
-    -->
-  <title>Deploy Demo</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    <h1>I'm deployed!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 4 - JavaScript</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
+  <body>
+    
+    <!-- Header with Logo & Navigation -->
+    <section>
+    <img src="https://brand.chapman.edu/wp-content/uploads/2023/04/Screen-Shot-2023-04-12-at-11.11.45-AM-300x294.png"/>
+    <h1> Chapman University Mini Golf Team </h1>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Stats</a>
+        <a href="">Schedule</a>
+        <a href="">Sign Up</a>
+      </nav>
+    </section>
+    
+    <main>
+    <!-- Image Carousel, from Code Sandbox Practice -->
+        <section class="photo-collection">
+            <h2> Our Team </h2>
+            <figure>
+            <img class="photo" id="img" src=""></img>
+                <button id="prev" disabled>Previous</button>
+                <button id="next">Next</button>
+            </figure>
+        </section> 
 
-  <!-- Any javascript linked in script tag at end of body -->
-  <script src="script.js"></script>
-</body>
+        <!-- Blog Directory -->
+        <section class = "blog">
+            <h3> Blog </h3>
+            <ol>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=IfhMILe8C84">Exclusive Interview with Coach Vigs</a>
+                </li>
+
+                <li> 
+                    <a href="https://www.tiktok.com/@golf_on_tiktok/video/7198630525014396206">Tiger Woods set to Join Chapman Mini Golf Team</a>
+                </li>
+
+                <li> 
+                    <a href="https://www.youtube.com/watch?v=f6x9l0wJHrI&ab_channel=TheInspiredUnemployed">Chapman Mini Golf Wins 18 Holes in One</a>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Calendar Widget -->
+        <section class = "calendar">
+            <h3> Our Calendar </h3>
+            <img src = "https://s.widget-club.com/images/cwDac1MHM1PxafqK80Q9m9qqmc33/kWMR5c6PzcpjkcnJ7KqX/3A39B0A4-D26D-4B59-8F1C-31E401D8E5E4.jpg?q=70"/>
+        </section>
+
+        <!-- About Us Blurb -->
+        <section class = "about">
+            <h3> About Our Team </h3>
+            <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+    </main>
+   
+
+    <!-- Footer Section -->
+
+    <!-- The sections may need to be in a list format, but I am not too sure -->
+    <footer>
+        <section>
+            <h4> Contact Us </h4>
+            <a href="https://www.chapman.edu/engineering/index.aspx">Phone</a>
+            <a href="https://www.chapman.edu/engineering/index.aspx">Email</a>
+        </section>
+
+        <section>
+            <h4>About Us</h4>
+            <a href="https://www.chapman.edu/engineering/index.aspx">Members</a>
+            <a href="https://www.chapman.edu/engineering/index.aspx">About Page</a>
+        </section>
+
+        <section>
+            <h4>Socials</h4>
+            <a href="https://www.chapman.edu/engineering/index.aspx">Instagram</a>
+            <a href="https://www.chapman.edu/engineering/index.aspx">TikTok</a>
+        </section>
+        
+    </footer>
+
+    <!-- JavaScript Script Tag -->
+    <script src="script.js"></script>
+  </body>
 </html>
