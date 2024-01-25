@@ -51,10 +51,13 @@
     gap: 2rem;
     font-size: 1.5rem;
   }
+
   header img {
-    height: 80px;
+    height: 40px;
     object-fit: contain;
+    width: auto;
   }
+
   header nav {
     display: flex;
     gap: 0.5rem;
