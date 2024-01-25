@@ -1,0 +1,190 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Open Sans", sans-serif;
+  }
+  main {
+    background-color: whitesmoke;
+  }
+  
+  footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  footer section {
+    text-align: center;
+  }
+  
+  footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #6E6259;
+  }
+  
+  header {
+    background-color: #A50034;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+  header img {
+    height: 80px;
+    object-fit: contain;
+  }
+  header nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: auto; 
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+
+  header h1 {
+    margin-left: -10px;
+    position: relative;
+  }
+
+  .photo {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    line-height: 0;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 10px solid #A50034;
+  }
+  .photo-collection {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .photo h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  figure {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+  }
+#prev,
+#next {
+  display: inline-block;
+  margin: 10px auto;
+}
+h3 {
+  font-size: 32px;
+}
+.blog {
+  padding: 10px;
+  flex: 1;
+}
+ol {
+  margin: 10px;
+  gap: 10px;
+}
+li {
+  margin-top: 10px;
+  background-color: #ebddbf;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 24px;
+  display: flex;
+  max-width: 600px;
+  border: 3px solid #8b7c71;
+}
+a {
+  flex-grow: 1;
+}
+
+.calendar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.calendar img {
+  margin-top: 10px;
+  max-width: 400px; 
+  max-height: 400px;
+  margin: 0 auto;
+  border: 1.5px solid black;
+}
+
+main.content-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog, .calendar, .about {
+  flex: 1;
+  text-align: center; 
+}
+
+.blog li {
+  margin-top: 5px;
+  background-color: #ebddbf;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.blog a {
+  color: #6E6259;
+  text-decoration: none;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.about p {
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
